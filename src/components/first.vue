@@ -1,9 +1,15 @@
 <template>
-  <div>one</div>
+  <div>{{ msg }}</div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      msg: "???",
+    };
+  },
+};
 </script>
 
 <style>
